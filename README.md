@@ -1,19 +1,50 @@
-# Hello World
+🌤️ Weather App
 
-A new Flutter project created with FlutLab - https://flutlab.io
+A Flutter-based weather application utilizing the MVC architecture and GetX for state management. It provides real-time weather information for multiple cities, detailed forecasts, and a search history feature.
 
-## Getting Started
+📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+Home Screen: Displays current weather for Kochi, Chennai, and Delhi.
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+City Search: Search for weather details by city name.
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Weather Details: View comprehensive weather information including temperature, humidity, wind speed, and more.
 
-## Getting Started: FlutLab - Flutter Online IDE
+Search History: Stores previously searched cities using Hive for offline access.
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+Dynamic Updates: Weather data updates in real-time.
+
+🛠️ Tech Stack
+
+Flutter: Cross-platform mobile development.
+
+GetX: State management and routing.
+
+Hive: Local storage for search history.
+
+OpenWeatherMap API: Weather data provider.
+
+📦 Installation
+
+Clone the repository:
+
+git clone https://github.com/Rajeshkanna-k/Weather-App.git
+
+
+Navigate to the project directory:
+
+cd Weather-App
+
+
+Install dependencies:
+
+flutter pub get
+
+
+Run the app:
+
+flutter run
+
+🌍 Demo
+
+A live demo is available at: https://github.com/Rajeshkanna-k/Weather-App
